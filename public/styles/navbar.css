@@ -1,17 +1,22 @@
 #navbar-wrapper,
-#games-icon-button {
+#covid-button {
   background-color: cadetblue;
   height: 80px;
   display: flex;
   justify-content: space-between;
 }
 
-#games-icon-button {
+#covid-button {
   font-size: 60px;
   align-items: center;
-  padding-left: 10px;
+  padding-left: 20px;
+  color: black;
 }
 
 .navbar-buttons {
-  margin: 10px;
+  text-decoration: none;
+}
+
+.navbar-buttons button {
+  height: 100%;
 }

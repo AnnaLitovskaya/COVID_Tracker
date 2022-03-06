@@ -1,7 +1,4 @@
 const router = require('express')();
-const {
-  models: { Highscore },
-} = require('../db/models/associations');
 
 // get all highscores
 router.get('/', async (req, res, next) => {
