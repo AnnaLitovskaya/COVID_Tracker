@@ -13,7 +13,7 @@ class App extends Component {
         <NavBar />
         <Switch id="main-app-content">
           <Route exact path="/" component={Home} />
-          <Route path="#/search" component={Search} />
+          <Route path="/search" component={Search} />
         </Switch>
       </Router>
     );

@@ -1,5 +1,6 @@
 @import url('./styles/navbar.css');
 @import url('./styles/home.css');
+@import url('./styles/search.css');
 
 * {
   background-color: aqua;
