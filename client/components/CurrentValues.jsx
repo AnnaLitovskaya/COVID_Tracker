@@ -10,6 +10,7 @@ const CurrentValues = (props) => {
   return (
     <div>
       Current Date: <div>{props.currentStats.date}</div>
+      Current Date: <div>{props.currentStats.date}</div>
     </div>
   );
 };
