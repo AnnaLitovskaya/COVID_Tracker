@@ -5,8 +5,6 @@ const Search = () => {
   return (
     <div id="search-wrapper">
       <CurrentValues />
-      <div>Get Statistics By Date</div>
-      <div>Get Statistics By State</div>
     </div>
   );
 };
